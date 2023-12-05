@@ -1,0 +1,31 @@
+body {
+    background-color: aliceblue;
+    overflow: auto;
+
+}
+
+.container {
+    height: 480px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 0%;
+}
+
+.submain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.submain img {
+    flex-grow: 1;
+}
+
+.h {
+    text-align: center;
+    color: green;
+}

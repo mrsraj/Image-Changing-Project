@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="image.css">
+
+</head>
+
+<body>
+    <h1 class="h">Image Replacing</h1>
+    <div class="container">
+
+        <div class="main">
+            <img src="sunsettree.jpg" alt="Tree" width="500" height="270" id="Main1">
+        </div>
+
+        <div class="submain">
+
+            <button type="button" onmouseover="change1()" class="sub1"> <img src="sunset.jpg" alt="Trulli" width="160"
+                    height="200"></button>
+            <button type="submit" onmouseover="change2()" class="sub2"><img src="tree.jpg" alt="Trulli" width="160"
+                    height="200"></button>
+            <button type="submit" onmouseover="change3()" class="sub3"><img src="sunsettree.jpg" alt="Trulli"
+                    width="160" height="200"></button>
+
+            <button type="submit" onmouseover="change4()" class="sub3"><img src="cloud.jpg" alt="Trulli" width="160"
+                    height="200"></button>
+
+            <button type="submit" onmouseover="change5()" class="sub3"><img src="sunlight.jpg" alt="Trulli" width="160"
+                    height="200"></button>
+
+            <button type="submit" onmouseover="change6()" class="sub3"><img src="wallpaper.jpg" alt="Trulli" width="160"
+                    height="200"></button>
+        </div>
+    </div>
+</body>
+
+<script>
+    function change1() {
+        document.getElementById("Main1").src = "sunset.jpg";
+    }
+    function change2() {
+        document.getElementById("Main1").src = "tree.jpg";
+    }
+    function change3() {
+        document.getElementById("Main1").src = "sunsettree.jpg";
+    }
+    function change4() {
+        document.getElementById("Main1").src = "cloud.jpg";
+    }
+    function change5() {
+        document.getElementById("Main1").src = "sunlight.jpg";
+    }
+    function change6() {
+        document.getElementById("Main1").src = "wallpaper.jpg";
+    }
+</script>
+
+</html>
